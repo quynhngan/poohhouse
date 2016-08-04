@@ -1,0 +1,27 @@
+.Header-header {
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header-logo {
+  height: 100%;
+  width: 50%;
+  background: url('./assets/cake-logo.jpg') no-repeat;
+  background-size: contain;
+}
+
+.Header-menu {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Header-menu-item {
+  color: #66DACD;
+  margin-left: 80px;
+  font-size: 22px;
+}
+

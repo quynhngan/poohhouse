@@ -1,0 +1,98 @@
+.PoohPost-content {
+  padding: 25px 25px 60px 25px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.PoohPost-reverse {
+  flex-direction: row-reverse;
+}
+
+.PoohPost-content:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.PoohPost-item-left {
+  width: 50%;
+}
+
+.PoohPost-item-left img {
+  width: 100%;
+}
+
+.PoohPost-item-right {
+  width: 50%;
+  padding: 0 15px 15px 15px;
+  box-sizing: border-box;
+}
+
+.PoohPost-item-author {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 0 20px;
+  color: #999;
+  position: relative;
+}
+
+.PoohPost-item-author::before, .PoohPost-item-author::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  width: 30px;
+  height: 2px;
+  z-index: 1000000;
+  background: #a8dba8;
+  text-align: center;
+}
+
+.PoohPost-item-author::before {
+  left: -30px;
+}
+.PoohPost-item-author::after {
+  right: -30px;
+}
+
+.PoohPost-item-title {
+  color: #202020;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  padding-bottom: 30px;
+}
+
+.PoohPost-item-description {
+  color: #666666;
+  padding-bottom: 30px;
+  line-height: 25px;
+}
+
+
+.PoohPost-timestamp {
+  color: #666666;
+  position: relative;
+  margin-top: 20px;
+}
+
+.PoohPost-timestamp:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 8px;
+  height: 1px;
+  background-color: #eee;
+}
+
+.PoohPost-timestamp-content {
+  z-index: 2;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+

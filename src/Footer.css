@@ -1,0 +1,32 @@
+.Footer-content {
+  padding: 20px;
+}
+
+.Footer-logo {
+  height: 200px;
+  width: 100%;
+  background: url('./assets/cake-logo.jpg') no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.Footer-tags {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Footer-tag-item {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #666;
+  cursor: pointer;
+}
+
+.Footer-tag-item:hover {
+  background: #a8dba8;
+  color: #3b8686;
+}
+
+
